@@ -22,7 +22,7 @@ jobs:
           export PATH=$PATH:$(go env GOPATH)/bin
           mkdir dist
           ls -ll
-          # tweego -f harlowe-1 cooper.tw2 -o dist/index.html
+          tweego -f harlowe-1 cooper.tw2 -o dist/index.html
           cp -r images/ dist
 
       - name: Deploy to Pages
