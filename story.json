@@ -1,0 +1,94 @@
+{
+  "passages": [
+    {
+      "text": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/internetarchivebookimages/14781111324/in/photolist-owa4qY-wibYuL-ouwTY7-wxi2L9-owa41u-ouWedr-xGqSpX-ovH7xE-oukdaW-oeN1B2-oee2eJ-ouFSDA-ouDD21-oeSXPa-ow9JY4-od7cHZ-wXAav5-odA9KP-xHLuNW-owkf78-x4BpTv-ovDcFe-wXyuEv-odhXi4-odikkv-ow7qm8-xpUTJF-ovUrhF-x1vLVb-wwxquJ-xcfcFH-of1zEU-owbC1x-owcEJs-of1Wvy-xccsEX-sGEDwx-ouJmeK-oexVEt-oeWfvk-wiasV7-ou3CGf-sJnkya-oeprgF-ocLrVM-rpe5GM-odu74C-xroG6L-u5Htmt-ow8YC3\" title=\"Image from page 38 of &quot;Harper&#x27;s new monthly magazine&quot; (1850)\"><img src=\"https://live.staticflickr.com/3916/14781111324_1014436cfe_b.jpg\" width=\"1024\" height=\"850\" alt=\"Image from page 38 of &quot;Harper&#x27;s new monthly magazine&quot; (1850)\"></a><script async src=\"//embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>\n\nVous vous réveillez dans vos quartiers du bateau, le St-Agne. Le son de l'explosion qui vous a réveillé commence à se dissiper. En sortant de votre cabine en trombe, prenant seulement le temps de passer une chemise et des bas, vous voyez des membres de l'équipage courir vers le pont.\nEn interpellant un matelot, il vous hurle que le navire est attaqué et que le capitaine a appelé tous les membres de l'équipage à rejoindre leurs postes. \n[[Rejoindre le pont]]\n[[Retourner à votre cabine]]",
+      "links": [
+        {
+          "name": "Rejoindre le pont",
+          "link": "Rejoindre le pont",
+          "pid": "2"
+        },
+        {
+          "name": "Retourner à votre cabine",
+          "link": "Retourner à votre cabine",
+          "pid": "3"
+        }
+      ],
+      "name": "Introduction",
+      "pid": "1",
+      "position": {
+        "x": "400",
+        "y": "100"
+      },
+      "tags": [
+        "Introduction"
+      ]
+    },
+    {
+      "text": "En arrivant sur le pont du St-Agne, un fleuron de la marine britannique, vous voyez une scène de chaos : une bataille fait rage au milieu d'une tempête, le St-Agne poursuivi par 2 navires battant pavillon noir.\nSur le pont, des traces de combat et des flammes commencent à se répandre. Chaque membre de l'équipage s'affairant au milieu de la tempête et de la bataille, créant un chaos couvert par le bruit des canons ou les cris des hommes et du capitaine donnant des ordres depuis la barre.\nVous voyant sur le pont, le capitaine vous ordonne de prendre la barre et de sortir le navire de la situation.\n[[Diriger le navire vers le coeur de la tempête]]\n[[Faire demi-tour et affronter les pirates]]",
+      "links": [
+        {
+          "name": "Diriger le navire vers le coeur de la tempête",
+          "link": "Diriger le navire vers le coeur de la tempête",
+          "pid": "4"
+        },
+        {
+          "name": "Faire demi-tour et affronter les pirates",
+          "link": "Faire demi-tour et affronter les pirates",
+          "pid": "5"
+        }
+      ],
+      "name": "Rejoindre le pont",
+      "pid": "2",
+      "position": {
+        "x": "500",
+        "y": "300"
+      },
+      "tags": [
+        "Introduction"
+      ]
+    },
+    {
+      "text": "Vous entrez dans une simple cabine d'homme d'équipage, agrémentée de quelques souvenirs de voyages.\nVous prenez votre sabre et finissez de vous habillez en vitesse avant de monter sur le pont.(set: $Sabre to true)\n[[Rejoindre le pont]] ",
+      "links": [
+        {
+          "name": "Rejoindre le pont",
+          "link": "Rejoindre le pont",
+          "pid": "2"
+        }
+      ],
+      "name": "Retourner à votre cabine",
+      "pid": "3",
+      "position": {
+        "x": "300",
+        "y": "300"
+      },
+      "tags": [
+        "Introduction"
+      ]
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Diriger le navire vers le coeur de la tempête",
+      "pid": "4",
+      "position": {
+        "x": "400",
+        "y": "500"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Faire demi-tour et affronter les pirates",
+      "pid": "5",
+      "position": {
+        "x": "600",
+        "y": "500"
+      }
+    }
+  ],
+  "name": "Cooper",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.15",
+  "ifid": "08EC742B-96A6-4CC2-8A0C-B3E8B4638FCE"
+}
