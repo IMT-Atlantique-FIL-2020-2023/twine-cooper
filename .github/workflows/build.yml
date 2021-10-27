@@ -20,7 +20,8 @@ jobs:
         run: |
           go get github.com/tmedwards/tweego
           export PATH=$PATH:$(go env GOPATH)/bin
-          tweego cooper.html -o dist/index.html
+          mkdir dist
+          tweego cooper.twee -o dist/index.html -f harlowe-1
           cp -r images/ dist
 
       - name: Deploy to Pages

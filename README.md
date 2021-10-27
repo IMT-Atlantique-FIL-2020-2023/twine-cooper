@@ -4,6 +4,8 @@
 
 *made with https://github.com/klembot/twinejs*
 
+see also https://www.motoslave.net/tweego/
+
 **Format:** Twee2 [documentation](https://dan-q.github.io/twee2/index.html)
 
 **Formater:** Entweedle [documentation](https://www.maximumverbosity.net/twine/Entweedle/)
