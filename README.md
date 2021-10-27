@@ -7,9 +7,11 @@
 * [Twee2 format](https://dan-q.github.io/twee2/index.html)
 
 * [Entweedle formater](https://www.maximumverbosity.net/twine/Entweedle/)
-	1. To use Entweedle as a Twine 2 format, click the "Formats" link in Twine. 
-	2. Then "Add a New Format" and enter `https://www.maximumverbosity.net/twine/Entweedle/format.js`. This will allow you to select Entweedle as a story format. 
-	3. Once selected, just Play your story, and copy/paste the generated twee source from the resulting export. 
+1. To use Entweedle as a Twine 2 format, click the "Formats" link in Twine. 
+2. Click on "Add a New Format"
+3. Enter `https://www.maximumverbosity.net/twine/Entweedle/format.js`. 
+4. You can now select Entweedle as your story format. 
+5. Play your story, and copy/paste the generated twee source from the resulting export. 
 
 ##### Images from
 
