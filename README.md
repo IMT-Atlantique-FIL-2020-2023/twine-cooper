@@ -1,4 +1,4 @@
-### Cooper
+## Cooper
 
 ### How to use
 
