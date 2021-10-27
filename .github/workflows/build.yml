@@ -19,9 +19,10 @@ jobs:
       - name: Build book
         run: |
           go get -v github.com/tmedwards/tweego
-          # export PATH=$PATH:$(go env GOPATH)/bin
+          export PATH=$PATH:$(go env GOPATH)/bin
           mkdir dist
-          tweego cooper.twee -o dist/index.html -f harlowe-1
+          ls -ll
+          tweego ./cooper.twee -o ./dist/index.html -f harlowe-1
           cp -r images/ dist
 
       - name: Deploy to Pages
