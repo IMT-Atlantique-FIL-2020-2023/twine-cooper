@@ -3,9 +3,9 @@ cooper
 
 :: StoryData
 {
- "ifid": "08EC742B-96A6-4CC2-8A0C-B3E8B4638FCE",
- "format": "Entweedle",
- "format-version": "1.1.1",
+ "ifid": "31761ACF-230B-4CA3-AECF-CB3FCB623547",
+ "format": "Harlowe",
+ "format-version": "1.2.4",
  "startnode": "1",
  "start": "Introduction"
 }
