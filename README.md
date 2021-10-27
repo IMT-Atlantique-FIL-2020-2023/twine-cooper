@@ -4,9 +4,9 @@
 
 *made with https://github.com/klembot/twinejs*
 
-* [Twee2 format](https://dan-q.github.io/twee2/index.html)
+**Format:** Twee2 [documentation](https://dan-q.github.io/twee2/index.html)
 
-* [Entweedle formater](https://www.maximumverbosity.net/twine/Entweedle/)
+**Formater:** Entweedle [documentation](https://www.maximumverbosity.net/twine/Entweedle/)
 1. To use Entweedle as a Twine 2 format, click the "Formats" link in Twine. 
 2. Click on "Add a New Format"
 3. Enter `https://www.maximumverbosity.net/twine/Entweedle/format.js`. 
