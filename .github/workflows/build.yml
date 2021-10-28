@@ -22,11 +22,13 @@ jobs:
           cd tweego
           go get
           go install
-          export PATH=$PATH:$(go env GOPATH)/bin
+          tweego
+          ls -ll
 
       - name: Build book
         run: |
           mkdir dist
+          ls -ll
           tweego -f harlowe-1 cooper.tw2 -o dist/index.html
           cp -r images/ dist
 
