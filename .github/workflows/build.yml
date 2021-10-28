@@ -23,7 +23,7 @@ jobs:
           go get
           go build
           ls -ll
-          tweego
+          ./tweego
           cd ..
           ls -ll
 
