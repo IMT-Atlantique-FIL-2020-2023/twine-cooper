@@ -22,8 +22,8 @@ jobs:
           cd tweego
           go get
           go install
-          tweego
           ls -ll
+          tweego
 
       - name: Build book
         run: |
