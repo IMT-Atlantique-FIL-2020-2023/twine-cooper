@@ -21,15 +21,17 @@ jobs:
           git clone https://github.com/tmedwards/tweego.git
           cd tweego
           go get
-          go install
+          go build
           ls -ll
           tweego
+          cd ..
+          ls -ll
 
       - name: Build book
         run: |
           mkdir dist
           ls -ll
-          tweego -f harlowe-1 cooper.tw2 -o dist/index.html
+          ./tweego/tweego -f harlowe-1 cooper.tw2 -o dist/index.html
           cp -r images/ dist
 
       - name: Deploy to Pages
