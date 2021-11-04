@@ -42,7 +42,7 @@ jobs:
         run: |
           mkdir dist
           ls -ll
-          ./tweego/tweego -f harlowe-1 cooper.tw2 -o dist/index.html
+          ./tweego/tweego -f harlowe-2.1.0 cooper.tw2 -o dist/index.html
           cp -r images/ dist
 
       - name: Deploy to Pages
