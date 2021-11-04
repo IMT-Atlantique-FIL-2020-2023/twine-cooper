@@ -27,14 +27,15 @@ jobs:
           cd tweego          
           go get
           go build
-          cd ..
           
       - name: Fetch Story-Formats
         run: |
-          npm i --prefix ./ https://cdn.jsdelivr.net/gh/klembot/twinejs@2.3.15/
-          ls -ll
-          mv ./twinejs@2.3.15/story-formats/ ./story-formats
-          ls -ll
+          mkdir ./story-formats
+          cd story-formats
+          mkdir ./harlowe-2.1.0
+          cd harlowe-2.1.0
+          wget https://cdn.jsdelivr.net/gh/klembot/twinejs@2.3.15/story-formats/harlowe-2.1.0/format.js
+          wget https://cdn.jsdelivr.net/gh/klembot/twinejs@2.3.15/story-formats/harlowe-2.1.0/icon.svg
       
       - name: Build book
         run: |
