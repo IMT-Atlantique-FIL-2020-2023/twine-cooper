@@ -24,6 +24,7 @@ jobs:
           go build
           
       - name: Fetch Story-Formats
+        run: |
           mkdir story-formats
           cd story-formats
           wget https://cdn.jsdelivr.net/gh/klembot/twinejs@2.3.15/story-formats/
