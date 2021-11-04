@@ -19,14 +19,16 @@ jobs:
       - name: Build tweego
         run: |
           git clone https://github.com/tmedwards/tweego.git
-          cd tweego
+          cd tweego          
           go get
           go build
-          ls -ll
-          ./tweego
-          cd ..
-          ls -ll
-
+          
+      - name: Fetch Story-Formats
+          mkdir story-formats
+          cd story-formats
+          wget https://cdn.jsdelivr.net/gh/klembot/twinejs@2.3.15/story-formats/
+          cd ../..
+      
       - name: Build book
         run: |
           mkdir dist
