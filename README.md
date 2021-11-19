@@ -15,6 +15,14 @@ see also https://www.motoslave.net/tweego/
 4. You can now select Entweedle as your story format. 
 5. Play your story, and copy/paste the generated twee source from the resulting export. 
 
+### Compile with tweego
+
+1. Install tweego **[here](https://www.motoslave.net/tweego/)**
+
+2. Compile (from `.tw2` to `.html`) ```tweego -f harlowe-2.1.0 cooper.tw2 -o index.html```
+
+3. Decompile (from `.html` to `.tw2`) ```tweego -d index.html -o cooper2.tw2```
+
 ##### Images from
 
 * https://www.flickr.com/photos/internetarchivebookimages/page1
